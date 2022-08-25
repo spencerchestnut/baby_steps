@@ -1,0 +1,14 @@
+# store input data in variables
+ice_bag_cost = 1.25
+profit_margin = .2
+number_of_bags = 500.0
+
+# perform the calculations
+profit_per_bag = ice_bag_cost * profit_margin
+total_profit = number_of_bags * profit_per_bag
+
+# display the result
+total_profit
+print(total_profit)
+
+print(f"The grocery store made a total profit of ${total_profit}")
